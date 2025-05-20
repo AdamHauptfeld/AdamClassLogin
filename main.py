@@ -8,12 +8,14 @@ from streamlit_gsheets import GSheetsConnection
 # Set page title
 st.title("Classroom Attendance System")
 
+'''
 #connect to Google sheet
 sheet_url = "https://docs.google.com/spreadsheets/d/1hIm_7dU4PbEWus4eLRTldMU2R2XxdN5VzV1pECTmTpA/edit?usp=sharing"
 
 conn = st.experimental_connection("gsheets", type=GSheetsConnection)
 sheet_data = conn.read(spreadsheet=sheet_url, usecols=[0,1])
 st.title(sheet_data)
+'''
 
 # Config file to store the class code
 CONFIG_FILE = "class_config.json"
