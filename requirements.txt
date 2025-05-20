@@ -1,3 +1,2 @@
 panda
 streamlit
-streamlit_gsheets
