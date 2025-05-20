@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 import os
 import json
-from streamlit_gsheets import GSheetsConnection
+#from streamlit_gsheets import GSheetsConnection
 
 # Set page title
 st.title("Classroom Attendance System")
